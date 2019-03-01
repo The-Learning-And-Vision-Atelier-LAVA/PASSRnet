@@ -1,1 +1,1 @@
-# PASSRnet: Parallax Attention Stereo Super-resolution Network
+# PASSRnet: Parallax Attention Stereo Super-Resolution Network
