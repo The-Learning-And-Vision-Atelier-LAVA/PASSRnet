@@ -7,7 +7,7 @@ Pytorch implementation of "Learning Parallax Attention for Stereo Image Super-Re
 
 Figure 1. Overview of our PASSRnet network.
 
-<img width="500" src="https://github.com/LongguangWang/PASSRnet/blob/master/Figs/Parallax-attention.png"/></div>
+<img width="400" src="https://github.com/LongguangWang/PASSRnet/blob/master/Figs/Parallax-attention.png"/></div>
 
 Figure 2. Illustration of our parallax-attention mechanism. 
 
