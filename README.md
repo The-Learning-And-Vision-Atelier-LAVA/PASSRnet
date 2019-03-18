@@ -1,6 +1,7 @@
 # PASSRnet: Parallax Attention Stereo Super-Resolution Network
 Pytorch implementation of "Learning Parallax Attention for Stereo Image Super-Resolution", CVPR 2019
 
+[[arXiv]](https://arxiv.org/abs/1903.05784) [[Supplemental Material]]()
 
 ## Overview
 ![overview](./Figs/Overview.png)
