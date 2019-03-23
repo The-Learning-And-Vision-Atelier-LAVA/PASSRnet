@@ -21,7 +21,7 @@ represents left/right stereo images, the second row stands for parallax-attentio
 ## Usage
 Codes are coming soon.
 
-## [Flickr1024 Dataset](https://github.com/LongguangWang/Flickr1024)
+## [Flickr1024 Dataset](https://yingqianwang.github.io/Flickr1024/)
 
 <img width="500" src="https://github.com/LongguangWang/PASSRnet/blob/master/Figs/Flickr1024.jpg"/></div>
 
