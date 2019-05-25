@@ -49,7 +49,7 @@ python train.py --scale_factor 4 --device cuda:0 --batch_size 32 --n_epochs 80 -
   └── test
       ├── dataset_1
             ├── hr
-			     ├── scene_1
+			├── scene_1
                        ├── hr0.png
                        └── hr1.png
 				 ├── ...
