@@ -25,9 +25,8 @@ represents left/right stereo images, the second row stands for parallax-attentio
 Figure 4. The Flickr1024 dataset.
 
 ## Requirements
-- Python 3
-- pytorch (0.4), torchvision (0.2) (Note: The code is tested with `python3.6, cuda=9.0`)
-- Matlab (For train/test data generation)
+- pytorch (0.4), torchvision (0.2) (Note: The code is tested with `python=3.6, cuda=9.0`)
+- Matlab (For training/test data generation)
 
 ## Train
 ### Prepare training data
@@ -50,7 +49,7 @@ python train.py --scale_factor 4 --device cuda:0 --batch_size 32 --n_epochs 80 -
   └── test
       ├── dataset_1
             ├── hr
-				├── scene_1
+			    ├── scene_1
                     ├── hr0.png
                     └── hr1.png
 				├── ...
@@ -67,7 +66,7 @@ python train.py --scale_factor 4 --device cuda:0 --batch_size 32 --n_epochs 80 -
 
 ### Demo
 ```bash
-python test.py --scale_factor 4 --device cuda:0 --dataset KITTI2012
+python demo_test.py --scale_factor 4 --device cuda:0 --dataset KITTI2012
 ```
 
 ## Results
