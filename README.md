@@ -49,17 +49,17 @@ python train.py --scale_factor 4 --device cuda:0 --batch_size 32 --n_epochs 80 -
   └── test
       ├── dataset_1
             ├── hr
-			    ├── scene_1
-                    ├── hr0.png
-                    └── hr1.png
-				├── ...
-				└── scene_M
+			     ├── scene_1
+                       ├── hr0.png
+                       └── hr1.png
+				 ├── ...
+				 └── scene_M
             └── lr_x4
-                ├── scene_1
-					├── lr0.png
-					└── lr1.png
-				├── ...
-				└── scene_M
+                 ├── scene_1
+					   ├── lr0.png
+					   └── lr1.png
+				 ├── ...
+				 └── scene_M
       ├── ...
       └── dataset_N
 ```
