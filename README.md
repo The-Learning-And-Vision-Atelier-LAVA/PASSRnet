@@ -84,7 +84,7 @@ Figure 7. Visual comparison for 2× SR. These results are achieved on a stereo i
 
 ## Citation
 ```
-@InProceedings{2018-LearningforVideoSuperResolutionthroughHROpticalFlowEstimation-LongguangWang--,
+@InProceedings{Wang2019Learning,
   author    = {Longguang Wang and Yingqian Wang and Zhengfa Liang and Zaiping Lin and Jungang Yang and Wei An and Yulan Guo},
   title     = {Learning Parallax Attention for Stereo Image Super-Resolution},
   booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
