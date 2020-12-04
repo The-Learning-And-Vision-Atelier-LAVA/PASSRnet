@@ -26,7 +26,7 @@ def test(test_loader, cfg):
     with torch.no_grad():
         for idx_iter, (HR_left, _, LR_left, LR_right) in enumerate(test_loader):
             HR_left, LR_left, LR_right = Variable(HR_left).to(cfg.device), Variable(LR_left).to(cfg.device), Variable(LR_right).to(cfg.device)
-            video_name = test_loader.dataset.file_list[idx_iter]
+            scene_name = test_loader.dataset.file_list[idx_iter]
 
             SR_left = net(LR_left, LR_right, is_training=0)
             SR_left = torch.clamp(SR_left, 0, 1)
@@ -36,10 +36,10 @@ def test(test_loader, cfg):
             ## save results
             if not os.path.exists('results/'+cfg.dataset):
                 os.mkdir('results/'+cfg.dataset)
-            if not os.path.exists('results/'+cfg.dataset+'/'+video_name):
-                os.mkdir('results/'+cfg.dataset+'/'+video_name)
+            if not os.path.exists('results/'+cfg.dataset+'/'+scene_name):
+                os.mkdir('results/'+cfg.dataset+'/'+scene_name)
             SR_left_img = transforms.ToPILImage()(torch.squeeze(SR_left.data.cpu(), 0))
-            SR_left_img.save('results/'+cfg.dataset+'/'+video_name+'/img_0.png')
+            SR_left_img.save('results/'+cfg.dataset+'/'+scene_name+'/img_0.png')
 
         ## print results
         print(cfg.dataset + ' mean psnr: ', float(np.array(psnr_list).mean()))
